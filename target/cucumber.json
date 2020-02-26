@@ -1,0 +1,204 @@
+[
+  {
+    "comments": [
+      {
+        "line": 1,
+        "value": "#language: pt"
+      },
+      {
+        "line": 2,
+        "value": "#encoding: utf-8"
+      }
+    ],
+    "line": 5,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 30726838217,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hook.OpenApp()"
+            }
+          }
+        ],
+        "line": 35,
+        "name": "Logar com usuário cadastrado",
+        "description": "",
+        "id": "login-e-cadastro;logar-com-usuário-cadastrado;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 1301141090,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hook.CloseApp()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Esquema do Cenário",
+        "steps": [
+          {
+            "result": {
+              "duration": 258983419,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "que acesso o App",
+            "match": {
+              "location": "HomeSteps.que_acesso_o_App_Arezzo()"
+            },
+            "keyword": "Dado "
+          },
+          {
+            "result": {
+              "duration": 11982652485,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "clico em Minha Conta",
+            "match": {
+              "location": "HomeSteps.clicarMinhaConta()"
+            },
+            "keyword": "Quando "
+          },
+          {
+            "result": {
+              "duration": 48520,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "clico em Entrar com Conta Arezzo",
+            "match": {
+              "location": "HomeSteps.clicaEmEntrar()"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 4653925841,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "preencho o email rrsetcwi@gmail.com",
+            "match": {
+              "arguments": [
+                {
+                  "val": "rrsetcwi@gmail.com",
+                  "offset": 17
+                }
+              ],
+              "location": "LoginSteps.preencherEmail(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 1190040761,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "clico em Seguinte",
+            "match": {
+              "location": "LoginSteps.clicarSeguinte()"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 3029794115,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "preencho a senha zero123@",
+            "match": {
+              "arguments": [
+                {
+                  "val": "zero123@",
+                  "offset": 17
+                }
+              ],
+              "location": "LoginSteps.preencherSenha(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 1208504686,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "clico em Entrar",
+            "match": {
+              "location": "LoginSteps.clicarEntrar()"
+            },
+            "keyword": "Quando "
+          },
+          {
+            "result": {
+              "duration": 5158246624,
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "clico em Minha Conta",
+            "match": {
+              "location": "HomeSteps.clicarMinhaConta()"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 1488290754,
+              "status": "passed"
+            },
+            "line": 32,
+            "name": "deve apresentar Minha Conta",
+            "match": {
+              "location": "MinhaContaSteps.verificarCadastro()"
+            },
+            "keyword": "Então "
+          }
+        ],
+        "tags": [
+          {
+            "line": 4,
+            "name": "@smoke"
+          },
+          {
+            "line": 4,
+            "name": "@login"
+          },
+          {
+            "line": 22,
+            "name": "@loginuser"
+          }
+        ]
+      }
+    ],
+    "name": "Login e Cadastro",
+    "description": "",
+    "id": "login-e-cadastro",
+    "keyword": "Funcionalidade",
+    "uri": "LoginCadastro.feature",
+    "tags": [
+      {
+        "line": 4,
+        "name": "@smoke"
+      },
+      {
+        "line": 4,
+        "name": "@login"
+      }
+    ]
+  }
+]
